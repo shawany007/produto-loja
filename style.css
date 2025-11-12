@@ -1,8 +1,34 @@
-body{
-    background-color: #1a1a1a !important;
+*{
+    background-color: #1a1a1a;
+    padding: 0;
+    margin: 0;
 }
-#banner{
-    height: 450px;
-    width: 750px;
 
+.banner{
+   height: 450px; 
+   width: 750px; 
+}
+ul{
+    display: flex;/*Ativa a propriedade de alinhamento */
+    flex-direction:row; /*Coloca os elementos na horizontal*/
+}
+  
+li a{
+text-decoration: none;
+color: #ffffff;
+font-size: 20px;
+padding: 20px;
+}
+li{
+    list-style: none;/*Remove os pontos das listas*/
+}
+nav{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+#logo{
+      height: 100px;
+      width: 100px;
 }
