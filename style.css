@@ -7,7 +7,13 @@
 .banner{
    height: 450px; 
    width: 750px; 
+   background-image:url("./assents/banner.png") ; /*Ele adiciona umaimagem como fundo*/
+ background-repeat: no-repeat;
+ background-size: cover;
+ justify-content: space-between;
+
 }
+
 ul{
     display: flex;/*Ativa a propriedade de alinhamento */
     flex-direction:row; /*Coloca os elementos na horizontal*/
@@ -27,8 +33,15 @@ nav{
     flex-direction: row;
 
     align-items: center;
+    justify-content: space-between;
 }
 #logo{
       height: 100px;
       width: 100px;
+}
+
+.bi{
+
+    font-size: 35px;
+    color: #4c544c;
 }
