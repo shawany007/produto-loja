@@ -64,14 +64,14 @@
      }
     
      .btn{
-        height: 45px;
-        width: 115px;
+        height: 40px;
+        width: 130px;
         border-radius: 55px;/*Deixa a  borda redonda*/
         border: none; /*Serve para remover a borda*/
         color: #ffffff;
         font-size: 19px;
         background-color: #333333;
-        margin: 30px;/*distancia o botao do texto*/
+        margin: 20px;/*distancia o botao do texto*/
      }
      
      .banner-estrutura{
@@ -176,4 +176,12 @@
      .banner-xbox{
       display:flex ;
       justify-content: end;
+     }
+     .xbox-caixa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        margin: 20px;
      }
